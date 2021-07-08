@@ -1,0 +1,182 @@
+<h1>Different ways to eliminate beef deficiencies in wine</h1>
+<span style="font-size: 85%">June 27, 2020 by Armando Jackson</span>
+<p>Â </p>
+<p><div id="ez-toc-container" class="ez-toc-v2_0_4 counter-hierarchy counter-decimal ez-toc-grey">
+			<div class="ez-toc-title-container">
+			<p class="ez-toc-title">Contents</p>
+			<span class="ez-toc-title-toggle">
+			<a class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"><i class="ez-toc-glyphicon ez-toc-icon-toggle"></i></a>
+			</span>
+			</div>
+			<nav>
+			<ul class="ez-toc-list ez-toc-list-level-1">
+									<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#updd">%date% Update</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#10"> What Is Your Wine Architecture? </a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#11"> Checking For Wine Errors </a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#12"> Installing Programs Using PlayOnLinux </a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#13"> Use An Intermediate Version Of Wine </a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#14"> Why Is My Program Not Working? </a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#15"> Use Native Windows Components With Winetricks </a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#16"> Change Your Wine Architecture </a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#1" title="How can I tell if my wine is 32 or 64 bit?">How can I tell if my wine is 32 or 64 bit?</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#2" title="How do I completely remove wine?">How do I completely remove wine?</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#30" title="How do I find out what programs are installed in wine?">How do I find out what programs are installed in wine?</a></li>     
+			</ul>
+			</nav>
+			</div></p>
+
+%top%
+
+<p><p id="30">We hope that if there is a wine error on your PC, this blog post will help you fix it. Depending on the drive letter that you installed in MS Office, you will find files somewhere below. Wine catalog. Your installation is most often located in ~ /. wine / drive_c / Program \\ files \\ \\ (x86 \\)</p></p>
+
+<p>Â </p>
+<p>Â </p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_UnoLUK3PAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p> PlayOnLinux <a href="//www.makeuseof.com/tag/playonlinux-brings-windows-games-programs-linux/">
+          
+            <span style = "Background image: URL (// static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)">
+            
+              
+            
+            
+              
+                PlayOnLinux port games and programs for Windows to Linux
+              
+              continue reading
+            
+          </a> This option allows you to run different versions of Wine that work with the programs you want to run. It can also automatically provide Wine with its own DLLs to make it work better. All this happens under the hood. So all you have to do is select what you want to install and then run it. </p>
+
+<p> Although software developed for 32-bit systems runs on 64-bit versions of Wine, it works best with 32-bit versions. Fortunately, changing the Wine architecture is pretty simple: </p>
+
+<p> If you find that there are no PlayOnLinux programs, you may need to install these programs manually. However, before diving you should ask yourself a question: does your Wine work in 64-bit or 32-bit mode? <A href = "// www.makeuseof.com/tag/difference-32-bit-64-bit- Windows / ">
+          
+            <span style = "Background image: URL (// static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)">
+            
+              
+            
+            
+              
+                What is the difference between 32-bit and 64-bit Windows?
+              What is the difference between 32-bit and 64-bit Windows? Here is a simple explanation and how to check the version you have.
+              continue reading
+            
+          </a>? </p>
+
+<p> Wine can use the Windows DLLs in addition to its own reverse engineering libraries. In many cases, this may contribute to better compatibility. However, for this you need to download it and explicitly ask Wine to use it. The Winetricks shell script automates this process, so you donâ€™t need to worry about the process. </p>
+
+<p> Like Windows, Linux and Wine have different versions designed for specific computer architectures. You are probably using a 64-bit version of Linux and therefore the default 64-bit version of Wine. </p>
+
+<p> Although installing a program with PlayOnLinux almost always ensures that everything andwell, you may not find what you are looking for in your catalog. But go to the download page and try again. </p>
+
+<h2 id="10"> What Is Your Wine Architecture? </h2>
+
+<div style="border: 1px solid #eee;"><p><h2 id="1">How can I tell if my wine is 32 or 64 bit?</h2>Go to the WINEPREFIX / drive_c / folder and find the "Programs" folder. If you see only program files and no program files (x86) are available, use the 32-bit wine prefix. If you see both of them, use the 64-bit wine prefix.</p></div>%middle%<p> Different programs are based on different DLLs. Therefore, I recommend looking for installation instructions in the official Wine application database. Just find the software catThe other you want, and you will surely see others in the same boat as you. </p>
+
+<h2 id="11"> Checking For Wine Errors </h2>
+
+<p> The following command uses wget <a href="//www.makeuseof.com/tag/mastering-wget-learning-neat-downloading-tricks/">
+          
+            <span style = "Background image: URL (// static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)">
+            
+              
+            
+            
+              
+                Wget Wizard and discover great download tips
+              Sometimes itâ€™s not enough just to savesite locally in your browser. Sometimes you need a little more power. There is a nice little Wget command line tool for this. Wget this ...
+              continue reading
+            
+          </a> download the script: </p>
+
+<p> In other words, Wine launches Windows software, reversing the development of parts of the Windows operating system for Linux. In the Microsoft world, these components are called DLLs (dynamic link libraries). They provide additional functions necessary for the operation of other programs. An example of this is d3d8.dll, which allows programs to access Microsoft DirectX 8 game functionality.>
+          
+            <span style = "Background image: URL (// static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)">
+            
+              
+            
+            
+              
+                All you need to know about DirectX in 2016
+              If you are playing on a PC, you should definitely use DirectX, as this can significantly increase your gaming performance! Here you will find everything you need to know.
+              prodlie reading
+            
+          </a>. </p>
+
+<p> Suffice it to say that there are many DLLs of which Wine offers equivalents. Wine may have implementation errors. Guilt may not be! These are the main reasons why Windows programs behave badly or do not work under Linux. Therefore, the following steps are designed to bring Wine implementations as close as possible to Windows. </p>
+
+<h2 id="12"> Installing Programs Using PlayOnLinux </h2>
+
+<p style="border: 1px solid #eee;"><h2 id="2">How do I completely remove wine?</h2>Open a terminal and run the command prompt: Wine Uninstaller. In the window that appears, select the application that you want to remove. Click the Delete button in the lower right corner. Repeat this process for other Windows software that you want to uninstall.</p><p> Just add the first two commands, as you did when you created the new Wine folder. You may need to restart your computer for these settings to work. Then you can run programs with a simple  The wine [program] command </p>
+
+<h2 id="13"> Use An Intermediate Version Of Wine </h2>
+
+<p> If you want to run a program with this version of Wine, you must first enter the first two commands. It can be a little tiring. If you want to use it as a standard version of Wine, you can create a file that does this automatically. </p>
+
+<p<p> The first command tells Wine to switch to 32-bit mode, and the second command tells where to create a new folder ("." at the end hides the folder - you can delete it if you want). Since this folder does not exist, the third team creates it for us. </p>
+
+<img src="/posts/ox-error-in-wine.jpg" width="50%" alt="ox error in wine"><p> If the application you want to run is not in the Wine application database, you can still view it to guess the problem. For example,<p> Wine <a href="//www.makeuseof.com/tag/run-windows-apps-games-linux-wine/">
+          
+            <span style = "Background image: URL (// static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)">
+            
+              
+            
+            
+              
+                How to run Windows applications and games with Linux Wine
+              Is there a way to run Windows software on Linux? One answer is to use wine, but although it can be very useful, it should probably be your last resort. That's why
+              continue reading
+            
+          Linux offers users the ability to run Windows software outside of a Microsoft domain. Thus, it can facilitate the transition from Windows <a href="//www.makeuseof.com/tag/hey-windows-user-switch-linux-mac/">
+          
+            <span style = "Background image: URL (// static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)">
+            
+              
+            
+            
+              
+                Hey Windows users, is it worth switching to Linux or Mac?
+              Have you ever thought about switching from Windows to Linux or Mac? The quick answer is: if you are running Windows, stay on Windows - and don't worry about updating for now. That's why
+              continue reading
+            
+          </a>, less connectedIt is with an exclusive software platform. </p>
+
+However, the wine is not perfect. Some programs require work, while others do not work at all. In addition to this, the following steps will increase your chances of running Windows programs on your Linux computer. </p>
+
+<h2 id="14"> Why Is My Program Not Working? </h2>
+
+<p> Wine Staging contains many fixes and features that were not available in consumer versions. Because of this, you may be more likely to get and run your programs if you use them instead. Specific instructions for your Linux distribution can be found on their website. </p>
+
+<h2 id="15"> Use Native Windows Components With Winetricks </h2>
+
+<p> Then click the Windows version button. You will see a list of the various editions of Windows that Wine can emulate. If you are using 32-p   the version of Wine, releases prior to Windows XP will be displayed, since they were available only in 32-bit mode. </p>
+
+<h3 id="16"> Change Your Wine Architecture </h3>
+
+<p> The second command runs the script. Linux for security reasons prohibits the execution of random scripts by default <a href="//www.makeuseof.com/tag/linux-really-secure-think/">
+          
+            <span style = "Background image: URL (// static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)">
+            
+              
+            
+            
+              
+                Is Linux really as secure as you think?
+              Linux is often touted as the safest operating system you can get. But is it really so? Let's look at various aspects of Linux computer security.
+              continue reading
+            
+          </a>. All you have to do is ask Winetricks to install a specific file in the terminal as follows: </p>
+
+
+
+<p>Â </p>
+<p>Â </p>
+
+%bottom%
+
+<p>Â </p>
+<div class="saboxplugin-wrap" itemtype="http://schema.org/Person" itemscope="" itemprop="author"><div class="saboxplugin-gravatar"><img src="/images/armando-jackson.jpg" width="100" height="100" alt="Armando Jackson" class="avatar avatar-100 wp-user-avatar wp-user-avatar-100 alignnone photo"></div><div class="saboxplugin-authorname"><span class="fn" itemprop="name">Armando Jackson</span></div><div class="saboxplugin-desc"><div itemprop="description"></div></div><div class="clearfix"></div></div>
+<p>Â </p>
+<p>wine environment variables</p>
+<p>Â </p>
+%tagscloud%
+<p>Â </p>

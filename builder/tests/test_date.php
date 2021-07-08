@@ -1,0 +1,1 @@
+<?php echo date('Y-m-d ').rand(10,17).':'.rand(10,59).':'.rand(10,59); ?>
